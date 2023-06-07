@@ -1,0 +1,130 @@
+  .body{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: normal;
+   margin: 0;
+  }
+ .head1{
+  background-color:black;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  z-index: 100;
+ }
+ .amazon-logo{
+  height: 45px;
+  padding-top: 10px;
+  padding-left: 30px;
+ 
+ }
+ .searchbox{
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+ }
+ .header-input{
+  width: 800px;
+  height: 45px;
+  border: none;
+  font-size: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  flex-shrink: 0;
+ }
+ .input-search{
+  height: 30px;
+ }
+ .input-search-button{
+  height: 47px;
+  width: 50px;
+  border:none;
+  background-color:rgb(255, 183, 49);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.cart-css{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-right: 40px;
+ }
+ .amazon-cart{
+  padding-left: 20px;
+  height: 45px;
+  position: relative;
+}
+ .cart-quantity-update{
+    color: rgb(240, 136, 4);
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    width: 26px;
+    text-align: center;
+ }
+ .sidebar{
+  position: fixed;
+    left: 0;
+    top: 75px;
+    bottom: 0;
+    background-color:rgb(250, 248, 248);
+    width: 110px;
+    padding-top: 5px;
+    z-index: 200;
+    display: flex;
+    align-items: centre;
+    flex-direction: column;
+    
+ }
+ .sidebar-icon{
+  height: 45px;
+  padding: 15px 15px;
+}
+ .products{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr  ;
+  column-gap: 10px;
+  row-gap: 15px;
+  align-items: baseline;
+  margin-top: 76px;
+  margin-left: 120px;
+  background-color: rgb(245, 241, 241);
+ }
+ .product1{
+  width:300px;
+ }
+ .product-description{
+  margin-left: 6px;
+ }
+.star-rating{
+  width: 100px;
+  margin-left: 4px;
+  margin-top: 10px;
+ }
+ .product-price{
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 4px;
+ }
+ .cart-quantity{
+  margin-top: 10px;
+  margin-left: 4px;
+  padding: 3px 3px ;
+  border-color: rgb(158, 158, 158);
+  border-radius: 5px;
+ }
+ .addtocart-css{
+  background-color:orange;
+  width: 150px;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+ }
