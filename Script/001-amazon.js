@@ -1,24 +1,4 @@
-const products =[{
- image:"/amazon images/laptop.jpg",
- name:"hp 6th generation 850g",
- rating: 4.5,
- priceCents: 1032          
-},{
-  image:"/amazon images/basketballs.jpg",
-  name:"high quality basketball",
-  rating:4.0,
-  priceCents:4032
-},{
-  image:"/amazon images/canvas shoes.jpg",
-  name:"Black and white canvas shoes",
-  rating:4.5,
-  priceCents:620
-},{
-  image:"/amazon images/food.jpg",
-  name:"baked meat balls",
-  rating:5.0,
-  priceCents:5445
-}];
+
 
 let productsHTML="";
 

@@ -1,5 +1,5 @@
   .body{
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
    font-style: normal;
    margin: 0;
   }
@@ -127,4 +127,5 @@
   border-radius: 20px;
   margin-top: 20px;
   margin-left: 20px;
+  margin-bottom: 20px;
  }
