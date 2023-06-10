@@ -10,7 +10,7 @@ const products =[{
    priceCents:4032
  },{
    image:"/amazon images/canvas shoes.jpg",
-   name:"Black and white canvas shoes",
+   name:"Red and white canvas shoes",
    rating:4.5,
    priceCents:620
  },{
