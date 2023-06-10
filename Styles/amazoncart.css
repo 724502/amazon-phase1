@@ -1,0 +1,144 @@
+
+.cart-head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 150px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.cart-head-logo{
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  
+}
+.items-number-summary{
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 950px;
+}
+.orders-button{
+border: none;
+border-radius: 10px;
+position: relative;
+padding-bottom: 100px;
+margin-left: 750px;
+margin-bottom: 30px;
+}
+.order-summary{
+
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.order-summary-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+  font-size: 20px;
+  width: 400px;
+}
+.order-total{
+  color: rgb(201, 4, 4);
+  padding-top: 17px;
+}
+.order-submit{
+  position: absolute;
+  top: 500px;
+  right: 850px;
+  width: 200px;
+  height: 35px;
+  border: none;
+  border-radius: 15px;
+  background-color:  rgb(253, 155, 27);
+  font-size: 15px;
+}
+.sub-heading{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 30px;
+}
+
+.cart-item-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+
+.product-box{
+  border-radius: 10px;
+  border-color: rgb(216, 216, 216);
+  border: none;
+
+}
+.delivery-message{
+  color: rgb(34, 170, 34);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: large;
+  padding-bottom: 20px;
+  padding-left: 10PX;
+}
+.cart-image{
+  width:300px;
+  padding-left: 2px;
+}
+.product-info{
+    display: flex;
+    align-items: top;
+}
+.product-info-primary{
+  display: flex;
+  align-items: top;
+}
+.products-info-flex{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  padding-top: 20px;
+  padding-right: 20px;
+  width:auto;
+}
+.product-description,
+.product-cart-quantity{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.product-price{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:  rgb(201, 4, 4);
+  padding: 10px 10px;
+}
+
+.delivery-box{
+  padding-top: 25px;
+}
+.delivery-option-method{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 0px;
+}
+   
+
+.delivery-options{
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.delivery-date{
+color: rgb(34, 170, 34) ;
+font-size: 20px;
+}
+.delivery-method{
+ font-size: 17px;
+
+}
