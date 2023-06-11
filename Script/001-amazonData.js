@@ -48,4 +48,9 @@ const products =[{
   name:"Amazon gift card",
   rating:4.5,
   priceCents:2000
+ },{
+  image:"/amazon images/gift card.jpg",
+  name:"Amazon gift card",
+  rating:4.5,
+  priceCents:2000
  }];

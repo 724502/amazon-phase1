@@ -31,11 +31,22 @@ products.forEach((product)=> {
           <option value="10">10</option>
         </select>
       </div>
-      <button class="addtocart-css">Add to cart</button>
+      <button class="addtocart-css js-addto-cart data-product-name ="${product.name}">
+      Add to cart</button>
     </div>
   `;
 }); 
-
-console.log(productsHTML);
  
 document.querySelector(".js-product-grid").innerHTML = productsHTML; 
+
+
+document.querySelectorAll(".js-addto-cart").forEach((button)=> {
+  button.addEventListener("click",()=>{
+     
+    console.log(button.dataset.productName);
+  });
+});
+ 
+
+
+
